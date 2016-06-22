@@ -1,0 +1,19 @@
+### Command for Chinese Font !
+
++ pandoc Placement.md -s -o Placement.pdf --latex-engine=xelatex -V mainfont="SimSun"
++ pandoc Placement.md -s -o Placement.pdf --latex-engine=xelatex --template=pm-template
++ pandoc Placement.md -s -o Placement.pdf --latex-engine=xelatex --template=pm-template --toc
+
+### Test for CPP code !
+
+```cpp
+	for (int i = 0; i < N; i++) {
+		int j = i + 1;
+	}
+```
+
+### Test for Math Formula !
+Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:
+
+$$I = \int \rho R^{2} dV$$
