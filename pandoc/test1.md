@@ -4,6 +4,10 @@
 + pandoc Placement.md -s -o Placement.pdf --latex-engine=xelatex --template=pm-template
 + pandoc Placement.md -s -o Placement.pdf --latex-engine=xelatex --template=pm-template --toc
 
+### command to produce PDF slide using beamer
+
++ pandoc -t beamer slides.md -V theme:Warsaw -o slides.pdf
+
 ### Test for CPP code !
 
 ```cpp
