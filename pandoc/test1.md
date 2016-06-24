@@ -8,6 +8,8 @@
 
 + pandoc -t beamer slides.md -V theme:Warsaw -o slides.pdf
 
++ pandoc -t beamer slides.md -V theme:Madrid -o slides.pdf
+
 ### Test for CPP code !
 
 ```cpp

@@ -1,5 +1,5 @@
 % Pandoc Markdown + Beamer Slides Demo
-% Chao Yan
+% 严 超
 % June 23rd, 2016
 
 # Header
@@ -36,6 +36,20 @@
 		int j = i + 1;
 	}
 ```
+
+# FootNote
+
+## Test for text and footnote
+
+Surely this is true.^[Jane Doe, Says It Here (New York: Oxford University Press, 2014)]
+
+# Tiny
+
+## Test with text and a note
+
+Regular text size
+
+\tiny Jonathan Sarna, *American Judaism* (New Haven: Yale University Press, 2014)
 
 # Math Formula
 
